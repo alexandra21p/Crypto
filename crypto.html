@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Substitution Cipher</title>
+    <link rel="stylesheet" type="text/css" href="crypto.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Substitution Cipher</h1>
+
+        <table id="alphabetTbl">
+            <th>_</th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>F</th>
+            <th>G</th>
+            <th>H</th>
+            <th>I</th>
+            <th>J</th>
+            <th>K</th>
+            <th>L</th>
+            <th>M</th>
+            <th>N</th>
+            <th>O</th>
+            <th>P</th>
+            <th>Q</th>
+            <th>R</th>
+            <th>S</th>
+            <th>T</th>
+            <th>U</th>
+            <th>V</th>
+            <th>W</th>
+            <th>X</th>
+            <th>Y</th>
+            <th>Z</th>
+
+            <tr id="keyRow">
+            </tr>
+        </table>
+        <div id="key-div">
+            KEY: <input id="key" type="text" name="key">
+            <button onclick="generateKey()">Generate Key</button>
+        </div>
+        <div id="headers">
+            <h3>PLAINTEXT</h3>
+            <h3>CIPHERTEXT</h3>
+        </div>
+        <div class="encr-decr-div">
+            <textarea id="plaintext" rows="4" cols="50" name="plaintext" placeholder="Enter plaintext..."></textarea>
+            <button class="special-buttons" onclick="encrypt(document.getElementById('plaintext').value)">Encrypt</button>
+            <button class="special-buttons" onclick="decrypt(document.getElementById('ciphertext').value)">Decrypt</button>
+            <textarea id="ciphertext" rows="4" cols="50" name="ciphertext" placeholder="Enter ciphertext..."></textarea>
+        </div>
+        <button id="reset" onclick="reset()">RESET</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

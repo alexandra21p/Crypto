@@ -1,0 +1,113 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+    background: linen;
+}
+.container {
+    width: 100%;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 23px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 20px auto;
+    border-bottom: 1px solid indianred;
+}
+
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+    background: snow;
+    font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 90%;
+    margin: 70px auto;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    cursor: pointer;
+}
+
+th:hover {
+    background-color: #dddddd;
+}
+
+input[type=text] {
+    padding: 5px 10px;
+    margin: 0 10px;
+    width: 30%;
+    font-size: 15px;
+
+}
+
+#headers {
+    margin: 45px auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    margin-left: -80px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#key-div {
+    margin: 0 auto;
+    width: 80%;
+    text-align:center;
+}
+
+.encr-decr-div {
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-around;
+}
+
+button {
+    padding: 8px 30px;
+    margin: 0 10px;
+    background-color: indianred;
+    color: white;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 11px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    cursor:pointer;
+}
+
+.special-buttons {
+    height:35px;
+    margin-top:25px;
+    flex: 0.2;
+}
+
+button:hover {
+    background: white;
+    color:indianred;
+}
+
+#reset {
+    padding: 8px 40px;
+    position: relative;
+    margin-top: 50px;
+    left: 45%;
+    font-size: 15px;
+}
+
+textarea {
+    padding: 5px 10px;
+    margin: 0 20px;
+    font-size: 15px;
+    flex: 2;
+    resize: none;
+}
