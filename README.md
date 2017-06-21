@@ -1,1 +1,2 @@
-# Cryptography thingy -  substitution cipher developed using js and a lil bit of css
+# Cryptography thingy
+* substitution cipher developed using js and a lil bit of css
